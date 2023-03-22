@@ -49,6 +49,7 @@ html {
   bottom: 0;
   position: fixed;
   list-style: none;
+  overflow: scroll;
 }
 
 .menu1 {
@@ -212,6 +213,7 @@ html {
   font-size: 20px;
   margin: auto;
   width: 25%;
+  margin-right: 15px;
 }
 
 .mobile-second-page button {
