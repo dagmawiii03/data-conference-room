@@ -36,8 +36,8 @@ window.onload = () => {
       role: 'Senior Lecturer',
       bio: 'research on regulation of emerging technologies and the development, inclusion and gender aspects of technology',
     },
-  ];  
-  function displaySpeakerInfo(speakerInfo) {   
+  ];
+  function displaySpeakerInfo(speakerInfo) {
     const speakers = `<div class="speaker-1">
         <div class="speaker-image">
             <img src=${speakerInfo.image} alt="speaker-1">
@@ -59,11 +59,12 @@ window.onload = () => {
 
   function close(menu, toBeClose) {
     menu.addEventListener('click', () => {
-        const value = document.querySelector(toBeClose);
+      const value = document.querySelector(toBeClose);
       value.style.display = 'none';
-      });
-  } 
+    });
+  }
   hamburger.addEventListener('click', () => {
+    /* eslint-disable no-console */
     console.log('clicked');
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'block';
