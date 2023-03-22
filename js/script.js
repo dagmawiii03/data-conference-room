@@ -1,5 +1,4 @@
 window.onload = () => {
-
     const guestSpeakers = [
         {
             image: '../images/google-head.jpeg',

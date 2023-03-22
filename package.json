@@ -14,13 +14,14 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "14.x",
     "eslint-plugin-import": "2.x",
-    "hint": "7.x",
+    "hint": "^2.0.0",
     "stylelint": "13.x",
     "stylelint-config-standard": "21.x",
     "stylelint-csstree-validator": "1.x",
     "stylelint-scss": "3.x"
   },
   "dependencies": {
+    "optionator": "^0.9.1",
     "tailwindcss": "^3.2.7"
   }
 }
