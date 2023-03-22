@@ -441,13 +441,14 @@ html {
     max-width: 90em;
   }
 
-  .mobile-first-page h4 {
-    text-align: center;
+  .speaker-1 h2,
+  h3,
+  h4 {
+    max-width: 10em;
   }
 
-  .speaker-1 h2,
-  h3, h4 {
-    max-width: 10em;
+  .mobile-first-page h4 {
+    text-align: center;
   }
 
   .mobile-first-page h3 {
