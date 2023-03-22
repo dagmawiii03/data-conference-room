@@ -85,5 +85,4 @@ window.onload = () => {
       const menu = document.querySelector('.mobile-menu');
       menu.style.display = 'none';
     });
-  };
-  
+};
