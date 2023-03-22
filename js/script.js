@@ -59,6 +59,13 @@ window.onload = () => {
     const hamburger = document.querySelector('.menu');
     const closeBtn = document.querySelector('.closeBtn');
   
+    function close(menu, toBeClose) {
+      menu.addEventListener('click', () => {
+        const value = document.querySelector(toBeClose);
+        value.style.display = 'none';
+      });
+    }
+  
     hamburger.addEventListener('click', () => {
       console.log('clicked');
       const menu = document.querySelector('.mobile-menu');
@@ -78,11 +85,5 @@ window.onload = () => {
       const menu = document.querySelector('.mobile-menu');
       menu.style.display = 'none';
     });
+  };
   
-    function close(menu, toBeClose) {
-      menu.addEventListener('click', () => {
-        const value = document.querySelector(toBeClose);
-        value.style.display = 'none';
-      });
-    }
-};
