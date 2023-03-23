@@ -62,6 +62,7 @@ body {
   bottom: 0;
   position: fixed;
   list-style: none;
+  overflow: scroll;
 }
 
 .menu1 {
@@ -70,8 +71,12 @@ body {
 }
 
 .mobile-menu .sidebar-cancel {
+  font-size: 12px;
   margin: 30px;
   color: var(--secondary_1);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .mobile-about-footer a {
@@ -85,7 +90,7 @@ body {
   display: flex;
   flex-direction: column;
   color: var(--secondary_1);
-  margin-top: 3rem;
+  margin-top: 5rem;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -127,7 +132,7 @@ body {
 .about-mobile-first-section h2 {
   text-align: center;
   font-family: 'COCOGOOSE', Arial, sans-serif;
-  font-size: 43px;
+  font-size: 40px;
   width: 100%;
   color: var(--secondary_5);
   background-repeat: no-repeat;
@@ -138,7 +143,7 @@ body {
   margin-top: 15%;
   background-color: var(--secondary_1);
   border: 2px solid var(--secondary_4);
-  color: var(--primary_4);
+  color: var(--primary_1);
   padding: 20px;
   line-height: 20px;
   width: 100%;
@@ -159,6 +164,7 @@ h3 {
   font-size: 15px;
   color: var(--primary_4);
   margin-top: 5%;
+  text-align: center;
 }
 
 .about-mobile-first-section h4 {
@@ -456,7 +462,7 @@ h3 {
     margin: 5% auto;
     background-color: var(--secondary_1);
     border: 2px solid var(--secondary_4);
-    color: var(--primary_4);
+    color: var(--primary_1);
     padding: 50px;
     line-height: 25px;
     width: 60%;
