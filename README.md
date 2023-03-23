@@ -1,4 +1,3 @@
-# data-conference-room
 
 <a name="readme-top"></a>
 
