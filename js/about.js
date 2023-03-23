@@ -3,12 +3,12 @@ window.onload = () => {
   const closeBtn = document.querySelector('.closeBtn');
   hamburger.addEventListener('click', () => {
     /* eslint-disable no-console */
-    console.log('clicked')
+    console.log('clicked');
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'block';
   });
   function close(menu, toBeClose) {
-    menu.addEventListener('click' , () => {
+    menu.addEventListener('click', () => {
       const value = document.querySelector(toBeClose);
       value.style.display = 'none';
     });
@@ -24,5 +24,5 @@ window.onload = () => {
   backToMainPage.addEventListener('click', () => {
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'none';
-  }); 
+  });
 };
