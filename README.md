@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://dagmawiii03.github.io/data-conference-room/)
 
 <!-- GETTING STARTED -->
 
