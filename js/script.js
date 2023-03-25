@@ -1,37 +1,37 @@
 window.onload = () => {
   const guestSpeakers = [
     {
-      image: './../images/sam-omar.png',
+      image: './images/sam-omar.png',
       name: 'Faith kocka',
       role: 'Head of Data science',
       bio: 'Leader of data team of the biggest data center',
     },
     {
-      image: './../images/mithi-debas.png',
+      image: './images/mithi-debas.png',
       name: 'Anthony Goldbloom',
       role: 'kaggle CEO and co-founder',
       bio: 'foremost expert on the exploding field of data science.',
     },
     {
-      image: './../images/kalolo-hauf.png',
+      image: './images/kalolo-hauf.png',
       name: 'Michael Kutuzov',
       role: 'Behance CEO',
       bio: 'founder of the largest creative network for showcasing and discovering creative work',
     },
     {
-      image: './../images/ajise-bonke.png',
+      image: './images/ajise-bonke.png',
       name: 'Derek Jedamski',
       role: 'Senior Manager, Data Science @ GitHub',
       bio: 'worked on various projects like Regression modeling, classification, NLP and regression',
     },
     {
-      image: './../images/charles-shady.png',
+      image: './images/charles-shady.png',
       name: 'Marilyn Moodley',
       role: 'Director/ Country Leader SA and WECA ',
       bio: 'worked as a data specialist at Microsoft',
     },
     {
-      image: './../images/emma-gbenga.png',
+      image: './images/emma-gbenga.png',
       name: 'Adekemi Omotubora',
       role: 'Senior Lecturer',
       bio: 'research on regulation of emerging technologies and the development, inclusion and gender aspects of technology',
