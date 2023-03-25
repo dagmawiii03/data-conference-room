@@ -50,26 +50,6 @@ window.onload = () => {
     </div>`;
     return speakers;
   }
-  function displaySpeakers() {
-    const container = document.querySelector('.speakers-container');
-    let maxSpeakers = 6; // default value to display all speakers
-  
-    // check if window width is less than or equal to 768px
-    if (window.innerWidth <= 768) {
-      maxSpeakers = 2; // display only two speakers for mobile devices
-    }
-  
-    // loop through guestSpeakers array and display speaker info
-    for (let i = 0; i < maxSpeakers; i++) {
-      const speakerInfo = guestSpeakers[i];
-      const speakerHtml = displaySpeakerInfo(speakerInfo);
-      container.innerHTML += speakerHtml;
-    }
-  }
-
-  // call displaySpeakers function when the page loads
-  window.addEventListener('load', displaySpeakers);
-  
   const guestSpeakerAtEvent = document.querySelector('.image-display-1');
   guestSpeakers.forEach((card) => {
     guestSpeakerAtEvent.innerHTML += displaySpeakerInfo(card);
