@@ -141,7 +141,7 @@ html {
 
 .mobile-first-page p {
   margin-top: 10px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border: 3px solid var(--secondary_1);
   color: var(--primary_4);
   padding: 20px;
@@ -388,7 +388,7 @@ html {
     padding-bottom: 20px;
     flex-wrap: nowrap;
     height: 48px;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
   }
 
@@ -440,14 +440,14 @@ html {
   }
 
   .mobile-first-page h1 {
-    margin-left: -300px;
+    /* margin-left: -300px; */
     font-size: 40px;
     text-align: left;
     margin-left: 5px;
   }
 
   .mobile-first-page h2 {
-    margin-left: -300px;
+    /* margin-left: -300px; */
     font-size: 70px;
     max-width: 90em;
     text-align: left;
