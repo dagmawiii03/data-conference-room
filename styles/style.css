@@ -403,6 +403,7 @@ html {
     font-weight: bolder;
     white-space: nowrap;
     margin-top: -20px;
+    margin-left: 200px;
   }
 
   .desktop-menu .fab {
