@@ -1,37 +1,37 @@
 window.onload = () => {
   const guestSpeakers = [
     {
-      image: '../images/google-head.jpeg',
+      image: '../images/sam-omar.png',
       name: 'Faith kocka',
       role: 'Head of Data science',
       bio: 'Leader of data team of the biggest data center',
     },
     {
-      image: '../images/kaggle-ceo.jpeg',
+      image: '../images/mithi-debas.png',
       name: 'Anthony Goldbloom',
       role: 'kaggle CEO and co-founder',
       bio: 'foremost expert on the exploding field of data science.',
     },
     {
-      image: '../images/behance-ceo.jpeg',
+      image: '../images/kalolo-hauf.png',
       name: 'Michael Kutuzov',
       role: 'Behance CEO',
       bio: 'founder of the largest creative network for showcasing and discovering creative work',
     },
     {
-      image: '../images/Derek.jpeg',
+      image: '../images/ajise-bonke.png',
       name: 'Derek Jedamski',
       role: 'Senior Manager, Data Science @ GitHub',
       bio: 'worked on various projects like Regression modeling, classification, NLP and regression',
     },
     {
-      image: '../images/Marilyn-Moodley.jpg',
+      image: '../images/charles-shady.png',
       name: 'Marilyn Moodley',
       role: 'Director/ Country Leader SA and WECA ',
       bio: 'worked as a data specialist at Microsoft',
     },
     {
-      image: '../images/adeyami.png',
+      image: '../images/emma-gbenga.png',
       name: 'Adekemi Omotubora',
       role: 'Senior Lecturer',
       bio: 'research on regulation of emerging technologies and the development, inclusion and gender aspects of technology',
@@ -50,6 +50,26 @@ window.onload = () => {
     </div>`;
     return speakers;
   }
+  function displaySpeakers() {
+    const container = document.querySelector('.speakers-container');
+    let maxSpeakers = 6; // default value to display all speakers
+  
+    // check if window width is less than or equal to 768px
+    if (window.innerWidth <= 768) {
+      maxSpeakers = 2; // display only two speakers for mobile devices
+    }
+  
+    // loop through guestSpeakers array and display speaker info
+    for (let i = 0; i < maxSpeakers; i++) {
+      const speakerInfo = guestSpeakers[i];
+      const speakerHtml = displaySpeakerInfo(speakerInfo);
+      container.innerHTML += speakerHtml;
+    }
+  }
+
+  // call displaySpeakers function when the page loads
+  window.addEventListener('load', displaySpeakers);
+  
   const guestSpeakerAtEvent = document.querySelector('.image-display-1');
   guestSpeakers.forEach((card) => {
     guestSpeakerAtEvent.innerHTML += displaySpeakerInfo(card);
