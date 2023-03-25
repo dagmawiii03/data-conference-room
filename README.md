@@ -115,7 +115,7 @@ Start python server and open http://localhost:8000
 
 ## 🔭 Video <a name="explain"></a>
 
-- [video](https://drive.google.com/drive/folders/1AMrm5VpbXMVkUPZJpc58usa-IW0ckeGY?usp=share_link)
+- [video](https://www.loom.com/share/9d3c9f0b8e6c421a9741276878958768)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
